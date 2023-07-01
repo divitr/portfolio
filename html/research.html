@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Divit Rawal</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/research.css">
+    <script defer src="../js/carousel_research.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html" class="name">DIVIT RAWAL</a></h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html" class="active">Research </a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title">RESEARCH</h1>
+        <h2 class="research-title">Heavy Particle Reconstruction</h2>
+        <section class="research" id="top-recon">
+            <div class="content">
+                <p>In High-Energy Physics, particles often decay before they are recorded by detectors, making it difficult to study their properties and interactions. However, by examining the particles they decay into, the original particles can be "reconstructed", allowing us to glean information about them. With the guidance of Dr. Daniel Whiteson and Dr. Michael Fenton at the UC Irvine Department of Physics and Astronomy, I simulated particle collisions and decays and wrote algorithms in C++ and Python to reconstruct heavy particles. I focused primarily on reconstructing Z<sup>0</sup> bosons and top quarks. Using my algorithm (and a &chi;<sup>2</sup> method), I was able to calculate the masses of these particles to within 2% error.</p>
+            </div>
+            <div class="carousel">
+                <div class="slides">
+                    <img id="image1" class="active" src="../imgs/research/top-recon/feynman_diagram.png"/>
+                    <img id="image2" class="" src="../imgs/research/top-recon/t1_mass.png"/>
+                    <img id="image3" class="" src="../imgs/research/top-recon/t2_mass.png"/>
+                    <img id="image4" class="" src="../imgs/research/top-recon/Z_masses.png"/>
+                </div>
+                <div class="buttons">
+                    <button class="active gallery-button" onclick="top_showImage(1)"></button>
+                    <button class="gallery-button" onclick="top_showImage(2)"></button>
+                    <button class="gallery-button" onclick="top_showImage(3)"></button>
+                    <button class="gallery-button" onclick="top_showImage(4)"></button>
+                </div>
+            </div>
+        </section>
+        <h2 class="research-title">High Momentum Collision Analysis</h2>
+        <section class="research" id="soft-extrap">
+            <div class="carousel">
+                <div class="slides">
+                    <img id="image1" class="active" src="../imgs/research/soft-extrap/ROC_src_src.png"/>
+                    <img id="image2" class="" src="../imgs/research/soft-extrap/ROC_src_tar.png"/>
+                    <img id="image3" class="" src="../imgs/research/soft-extrap/soft_extrap_collage.png"/>
+                </div>
+                <div class="buttons">
+                    <button class="active gallery-button" onclick="soft_showImage(1)"></button>
+                    <button class="gallery-button" onclick="soft_showImage(2)"></button>
+                    <button class="gallery-button" onclick="soft_showImage(3)"></button>
+                </div>
+            </div>
+            <div class="content">
+                <p>Oftentimes, particle detectors pick up noise that hinders efforts to analyze the true data. Working with Dr. Daniel Whiteson and Dr. Aishik Ghosh at the UC Irvine Department of Physics and Astronomy, I developed neural networks to discriminate between signal and background data from detector readings. Because it is difficult to analyze high momentum collisions, training data is limited, and training machine learning models is challenging. To overcome this problem, we developed four identical models, trained them on low momentum data, and tested their ability to extrapolate to high momentum data, resulting in greater than 90% accuracy.</p>
+            </div>
+        </section>
+        <div class="more-button">
+            <a href="../files/research_abstract.pdf" target="_blank">
+                <button class="learn-more-button"><span>More About My Research</span></button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
