@@ -1,0 +1,31 @@
+main {
+  display: flex;
+}
+
+.image {
+  width: 100vw;
+  aspect-ratio: 1632/1020;
+  background: no-repeat;
+  background-image: url('../imgs/beach_full.jpg');
+  background-size: 100%;
+  display: flex;
+  background-position: center top;
+}
+
+.spacer {
+  width: 60%;
+}
+
+.description {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(1.5px);
+  padding: 0px 0px 100px 0px;
+}
+
+.description p {
+  padding: 25px;
+  font-size: 35px;
+  color: white;
+}
