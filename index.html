@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Divit Rawal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/carousel.js"></script>
+    <script defer src="js/scroll_animation.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="name">DIVIT RAWAL</a></h1>
+        <nav>
+            <ul>
+                <li><a href="html/about.html">About</a></li>
+                <li><a href="html/research.html">Research</a></li>
+                <li><a href="html/projects.html">Projects</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="image hidden">
+            <p class="name-on-image">Divit Rawal</p>
+            <p class="desc">Passionate student studying Physics and Mathematics,<br />exploring interdisciplinary problem-solving <br />with analytical and programming skills.</p>
+        </div>
+        <section class="about hidden">
+            <div class="fade-image">
+                <div class="description-about">
+                    <p class="description-about-text">I am driven by a deep curiosity to understand the fundamental laws that govern the universe. My passion for Physics and Mathematics, combined with my interest in Computer Science, fuels my desire to pursue innovative research and solve real-world challenges. I am eager to collaborate with like-minded individuals and contribute to advancements in scientific discovery and technological innovation.</p>
+                    <a href="html/about.html" class="learn-more-button" style="padding: 20px"><button><span>About Me</span></button></a>
+                </div>
+            </div>
+        </section>
+        <section class="project-highlights-wrapper hidden">
+            <h2 class="project-highlights-title">Projects</h2>
+            <section class="project-highlights">
+                <div class="controls">
+                    <button id="prev-button">&lang;</button>
+                </div>
+                <div class="carousel">
+                    <div class="project-card">
+                        <h3 class="project-title">Watersort Solver</h3>
+                        <img class="project-img" src="imgs/app_favicon.png"/>
+                        <p class="project-desc">An app that can solve any watersort brainteaser.</p>
+                        <a href="html/projects.html#watersort" class="learn-more-button"><button><span>Learn More</span></button></a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">expOS</h3>
+                        <img class="project-img" src="imgs/CPU_drawing.png"/>
+                        <p class="project-desc">An Operating System I am developing in my free time.</p>
+                        <a href="html/projects.html#expOS" class="learn-more-button"><button><span>Learn More</span></button></a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Research-Engine</h3>
+                        <img class="project-img" src="imgs/rese-favicon.png"/>
+                        <p class="project-desc">A website that provides topic summaries and related research papers.</p>
+                        <a href="html/projects.html#rese" class="learn-more-button"><button><span>Learn More</span></button></a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">High Momentum Collision Analysis</h3>
+                        <img class="project-img" src="imgs/ROCs_transparent.png"/>
+                        <p class="project-desc">Using machine learning to improve particle detector resolution.</p>
+                        <a href="html/research.html#soft-extrap" class="learn-more-button"><button><span>Learn More</span></button></a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Heavy Particle Reconstruction</h3>
+                        <img class="project-img" src="imgs/Z_mass_transparent.png"/>
+                        <p class="project-desc">Using Computer Science to identify properties of hypothesized particles.</p>
+                        <a href="html/research.html#top-recon" class="learn-more-button"><button><span>Learn More</span></button></a>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="next-button">&rang;</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Divit Rawal. All Rights Reserved.
+    </footer>
+</body>
+</html>
