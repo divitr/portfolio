@@ -18,6 +18,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .content {
@@ -26,6 +27,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    width: 50%;
 }
 
 .image img {
