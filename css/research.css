@@ -32,7 +32,6 @@ main {
 .desc-and-skills {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .skills {
