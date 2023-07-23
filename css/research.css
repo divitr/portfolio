@@ -29,6 +29,33 @@ main {
     align-items: center;
 }
 
+.desc-and-skills {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.skills {
+    list-style: none;
+    padding: 0px 50px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    font-size: 12px;
+    background-color: rgb(244, 241, 241);
+    border: 2px solid lightgrey;
+    padding: 7px 14px;
+    border-radius: 20px;
+    margin: 0px 10px 10px 0px;
+}
+
+.skills li:hover {
+    background-color: lightgrey;
+}
+
 .carousel {
     flex: 1;
     display: flex;
@@ -67,7 +94,7 @@ h2:nth-of-type(even) {
 }
 
 .research .content p {
-    padding: 10% 5%;
+    padding: 2.5% 50px;
 }
 
 .buttons {
