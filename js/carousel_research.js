@@ -30,7 +30,7 @@ for (var i = 0; i < top_buttons.length; i++) {
     top_buttons[i].addEventListener("click", top_resetTimer);
 }
 
-intervalID_TOP = setInterval(top_showImageAuto, 5500);
+intervalID_TOP = setInterval(top_showImageAuto, 4500);
 
 
 const soft_slides = document.getElementById("soft-extrap").querySelector(".slides").children;
@@ -65,4 +65,4 @@ for (var i = 0; i < soft_buttons.length; i++) {
     soft_buttons[i].addEventListener("click", soft_resetTimer);
 }
 
-intervalID_SOFT = setInterval(soft_showImageAuto, 5500);
+intervalID_SOFT = setInterval(soft_showImageAuto, 4500);
