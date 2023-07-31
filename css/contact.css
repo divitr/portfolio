@@ -2,6 +2,14 @@ main h1 {
     padding: 50px 0px 50px 0px;
 }
 
+#title {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(71, 67, 67);
+}
+
 .container {
     text-align: center;
     max-width: 500px;
