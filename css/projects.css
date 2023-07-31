@@ -30,6 +30,10 @@ main {
     aspect-ratio: 584/321;
 }
 
+#cpu {
+    height: 60%;
+}
+
 .content {
     flex: 1;
     display: flex;
