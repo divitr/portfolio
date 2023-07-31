@@ -1,15 +1,16 @@
 main {
   display: flex;
+  flex-direction: column;
 }
 
 .image {
   width: 100vw;
-  aspect-ratio: 1632/1020;
+  aspect-ratio: 1934/1174;
   background: no-repeat;
-  background-image: url('../imgs/beach_full.jpg');
+  background-image: url('../imgs/marble.jpg');
   background-size: 100%;
   display: flex;
-  background-position: center top;
+  background-position: center;
 }
 
 .spacer {
@@ -17,14 +18,25 @@ main {
 }
 
 .description {
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 50px 75px 0px;
 }
 
 .description p {
   padding: 25px;
   font-size: 35px;
-  color: white;
+  color: rgb(61, 60, 60);
+}
+
+main h1 {
+  font-size: 35px;
+  padding: 50px;
+  text-align: center;
+}
+
+.certs-and-courses {
+  display: flex;
+  flex-direction: center;
 }
