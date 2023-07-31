@@ -32,6 +32,7 @@ main {
 
 #cpu {
     height: 60%;
+    max-height: 350px;
 }
 
 .content {
