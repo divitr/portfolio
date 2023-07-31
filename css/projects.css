@@ -27,8 +27,8 @@ main {
 
 #rese .image img {
     height: 70%;
+    max-width: 80%;
     aspect-ratio: 584/321;
-    padding: 40px;
 }
 
 #cpu {
