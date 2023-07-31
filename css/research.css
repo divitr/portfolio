@@ -1,6 +1,9 @@
 #title {
     text-align: center;
     padding: 50px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(71, 67, 67);
 }
 
 .research {
