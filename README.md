@@ -1,1 +1,1 @@
-# divitr.github.io
+# divitrawal.com
